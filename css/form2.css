@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Title";
+    src: url(../fonts/BMSPA___.TTF);
+}
+
+@font-face {
+    font-family: "Content";
+    src: url(../fonts/coolvetica\ condensed\ rg.otf);
+}
+
+form{
+    width: 90%;
+    border: 3px solid #003249;
+    padding: 1rem;
+    margin-top: 15px;
+    background: #e9e9e9;
+    border-radius: 20px;
+    color: #002c7e;
+}
+
+label{
+    color: #040225;
+    font-size: 1.2rem;
+    padding: 10px;
+    font-weight: 300;
+}
+
+input,textarea{
+    display: block;
+    border: 2px solid #02a1eb;
+    border-radius: 5px;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    
+}
+
+input:focus,textarea:focus{
+    background: #a0d7f0;
+    font-weight: bold;
+}
+
+.button2{
+    background-color: #0087c5;
+    border: 2px solid #4e4e4e;
+    border-radius: 5px;
+    color: #fff;
+    padding: .5rem;
+    font-family: Title;
+    margin-left: auto;
+    width: auto;
+    text-decoration: none;
+}
+
+.button2:hover{
+    background-color: #00405e;
+    border: 2px solid #000000;
+    color: #fff;
+}
+
+
